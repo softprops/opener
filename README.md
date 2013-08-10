@@ -6,9 +6,10 @@ Opener provides interfaces for opening files on your desktop using this [tool](h
 
 ## usage
 
+Each operation is exposed as an object with an apply for the type of input the operation expects. You can open with `opener.Browse`, `opener.Edit`, `opener.Mail`, and `opener.Open`. Each operation returns a `scala.util.Try` of the attempted operation.
+
 ```scala
-import java.net.URI
-opener.Browse(new URI(https://github.com/softprops/opener#readme))
+opener.Browse(new java.net.URI("https://github.com/softprops/opener#readme"))
 ```
 
 Doug Tangren (softprops) 2013
