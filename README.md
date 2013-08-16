@@ -8,8 +8,10 @@ Opener provides interfaces for opening files and URI's on your desktop using thi
 
 Via the copy and paste method
 
-    libraryDependencies += "me.lessis" %% "opener" % "0.1.0"
-    
+```scala
+libraryDependencies += "me.lessis" %% "opener" % "0.1.0"
+```
+
 Via [a more civilized method](https://github.com/softprops/ls#readme)
 
     > lsInstall opener
