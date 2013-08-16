@@ -9,12 +9,20 @@ Opener provides interfaces for opening files and URI's on your desktop using thi
 Via the copy and paste method
 
 ```scala
+resolvers += "softprops-maven" at "http://dl.bintray.com/content/softprops/maven"
+
 libraryDependencies += "me.lessis" %% "opener" % "0.1.0"
 ```
 
-Via [a more civilized method](https://github.com/softprops/ls#readme)
+Via [a more civilized method](https://github.com/softprops/ls#readme) which will do the same without all the manual work.
 
-    > lsInstall opener
+    > ls-install opener
+
+Note. If you are a [bintray-sbt](https://github.com/softprops/bintray-sbt#readme) user you can optionally specify the resolver as
+
+```scala
+resolvers += bintray.Opts.resolver.repo("softprops", "maven")
+```
 
 ## usage
 
