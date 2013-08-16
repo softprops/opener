@@ -1,0 +1,17 @@
+{
+  "organization" : "me.lessis",
+  "name" : "opener",
+  "version" : "0.1.0",
+  "description" : "opens files, URIs, and your eyes on any given platform",
+  "site" : "https://github.com/softprops/opener/#readme",
+  "tags" : [ "open", "tools", "launcher" ],
+  "docs" : "",
+  "resolvers" : [ "http://dl.bintray.com/content/softprops/maven" ],
+  "dependencies" : [ ],
+  "scalas" : [ "2.9.3", "2.10.0", "2.10.1", "2.10.2" ],
+  "licenses" : [ {
+    "name" : "MIT",
+    "url" : "https://github.com/softprops/opener/blob/0.1.0/LICENSE"
+  } ],
+  "sbt" : false
+}
