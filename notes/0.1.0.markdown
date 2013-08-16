@@ -1,0 +1,9 @@
+## initial release
+
+Opener opens files and URI's in what ever application your told your OS to do so. Openers are also good finishers.
+
+For more information see this projects [readme](https://github.com/softprops/opener#readme)
+
+or just `open` it.
+
+    opener.Browse(new java.net.URI("https://github.com/softprops/opener#readme"))
